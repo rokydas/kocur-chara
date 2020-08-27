@@ -12,6 +12,7 @@ const Course = (props) => {
             <Card.Body>
                 <Card.Title>{data.name}</Card.Title>
                 <Card.Text className="price">Price: <span className="taka-icon">৳</span> {data.price}</Card.Text>
+                <Card.Text><h5>Instructor: {data.instructor}</h5></Card.Text>
                 <Card.Text>{data.description}</Card.Text>
             </Card.Body>
             <Card.Footer>
