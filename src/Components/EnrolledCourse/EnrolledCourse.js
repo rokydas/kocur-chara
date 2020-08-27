@@ -11,7 +11,8 @@ const EnrolledCourse = (props) => {
     }
     
     const vat = (totalPrice * 0.05).toFixed(2);
-    const totalPriceWithVat = totalPrice + parseFloat(vat);
+    const totalPriceWithVat = (totalPrice + parseFloat(vat)).toFixed(2);
+
     return (
         <div className="container">
             <div className="enrolled-course">
