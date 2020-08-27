@@ -1,5 +1,6 @@
 import React from 'react';
 import './EnrolledCourse.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const EnrolledCourse = (props) => {
     const enroll = props.enroll;
