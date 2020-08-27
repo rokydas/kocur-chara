@@ -1,3 +1,7 @@
-.container{
-  border: 2px solid red;
+.clear{
+  clear: both;
+}
+
+.enrolled{
+  margin: 50px 0px;
 }

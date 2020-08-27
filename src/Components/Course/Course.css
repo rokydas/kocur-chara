@@ -1,11 +1,11 @@
 .product-box{
     float: left;
-    width: 330px;
+    width: 350px;
     margin: 10px;
 }
 
 .product-img{
-    width: 325px;
+    width: 350px;
     height: 200px;
 }
 
@@ -17,6 +17,7 @@
     padding: 5px 15px;
     outline: none;
 }
+
 .enroll-button:focus{
     outline: none;
 }
@@ -25,4 +26,13 @@
     color: black;
     background-color: white;
     border: 2px solid black;
+}
+
+.taka-icon{
+    font-size: 20px;
+    font-weight: 800; 
+}
+
+.price{
+    font-weight: 800;
 }

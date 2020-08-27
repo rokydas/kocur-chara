@@ -1,4 +1,4 @@
-var course =
+var fakeData =
     [
         {id: 4589, name: 'HTML full course', price: 1500, img: 'https://i.ibb.co/w4ty9sc/html.png', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste architecto commodi odit quae illo velit voluptates dolore, fuga iure laborum unde dignissimos vel ut officia reiciendis adipisci optio. Molestias.'}, 
         {id: 3489, name: 'Pure Javascript full course', price: 3000, img: 'https://i.ibb.co/RHvzhQv/js.png', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste architecto commodi odit quae illo velit voluptates dolore, fuga iure laborum unde dignissimos vel ut officia reiciendis adipisci optio. Molestias.'}, 
@@ -18,4 +18,4 @@ var course =
 
     ];
 
-export default course;
+export default fakeData;

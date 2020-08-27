@@ -1,0 +1,26 @@
+.checkout{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+.checkout:focus{
+    outline: none;
+}
+
+.checkout:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.enrolled-course{
+    text-align: center;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(lightsalmon, rgb(223, 103, 56));
+}
